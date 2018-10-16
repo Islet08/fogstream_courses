@@ -9,11 +9,10 @@ V<0, то в отрицательном.
 
 """
 
+MKAD = 109
+
 speed = int(input())
 time = int(input())
 
-distance = 109 % (speed * time)
+distance = MKAD % (speed * time)
 print(distance)
-
-
-
